@@ -1,2 +1,4 @@
-frontend/styles/main.css
-frontend/styles/main.css.map
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
