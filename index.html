@@ -11,19 +11,34 @@
 <body>
     <div class="container">
         <nav class="row navbar navbar-expand-lg navbar-light bg-white">
-            <a href="#" class="navbar-brand">
-                <img src="frontend/images/logo.png" alt="Logo DETRAVEL"/>
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="frontend/images/logo.png" alt="Logo Detravel"></a>
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navb">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto mr-3">
-                    <a href="">Home</a>
+                  <li class="nav-item mx-md-2">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Paket</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbar-drop" data-toggle="dropdown">Service</a>
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">Link</a>
+                        <a href="" class="dropdown-item">Link</a>
+                        <a href="" class="dropdown-item">Link</a>
+                    </div>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Disabled</a>
+                  </li>
                 </ul>
+              </div>
             </div>
-        </nav>
+          </nav>
     </div>
 
     <script src="frontend/jquery/jquery-3.6.1.min.js"></script>
